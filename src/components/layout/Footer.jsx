@@ -5,5 +5,9 @@ export default function Footer() {
     return new Date().getFullYear();
   }, []);
 
-  return <footer>Copyrights {year} all rights reserbed</footer>;
+  return (
+    <footer className="text-xs text-center">
+      Copyrights {year} all rights reserbed
+    </footer>
+  );
 }
