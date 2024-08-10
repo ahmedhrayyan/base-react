@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 export default function MyFirstComponent({ pageName }) {
-  return <h1>Welocome from {pageName}</h1>;
+  return <h1>Welcome from {pageName}</h1>;
 }
 
 MyFirstComponent.propTypes = {
